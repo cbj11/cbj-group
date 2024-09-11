@@ -1,20 +1,20 @@
-import { Col } from "react-bootstrap";
-import "./product-card.css";
-import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
-import { useDispatch } from "react-redux";
-import { addToCart } from "../../app/features/cart/cartSlice";
+import { Col } from "react-bootstrap"
+import "./product-card.css"
+import { useNavigate } from "react-router-dom"
+import { toast } from "react-toastify"
+import { useDispatch } from "react-redux"
+import { addToCart } from "../../app/features/cart/cartSlice"
 
 const ProductCard = ({ title, productItem }) => {
-  const dispatch = useDispatch();
-  const router = useNavigate();
+  const dispatch = useDispatch()
+  const router = useNavigate()
   const handelClick = () => {
-    router(`/shop/${productItem.id}`);
-  };
+    router(`/shop/Rp.{productItem.id}`)
+  }
   const handelAdd = (productItem) => {
-    dispatch(addToCart({ product: productItem, num: 1 }));
-    toast.success("Product has been added to cart!");
-  };
+    dispatch(addToCart({ product: productItem, num: 1 }))
+    toast.success("Product has been added to cart!")
+  }
   return (
     <Col md={3} sm={5} xs={10} className="product mtop">
       {title === "Big Discount" ? (
@@ -39,7 +39,7 @@ const ProductCard = ({ title, productItem }) => {
           <i className="fa fa-star"></i>
         </div>
         <div className="price">
-          <h4>${productItem.price}</h4>
+          <h4>Rp.{productItem.price}</h4>
           <button
             aria-label="Add"
             type="submit"
@@ -51,7 +51,7 @@ const ProductCard = ({ title, productItem }) => {
         </div>
       </div>
     </Col>
-  );
-};
+  )
+}
 
-export default ProductCard;
+export default ProductCard

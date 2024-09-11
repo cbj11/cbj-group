@@ -1,100 +1,103 @@
-import productImg01 from "../Images/double-sofa-01.png";
-import productImg02 from "../Images/double-sofa-02.png";
-import productImg03 from "../Images/double-sofa-03.png";
+import productImg01 from "../Images/double-sofa-01.png"
+import productImg02 from "../Images/double-sofa-02.png"
+import productImg03 from "../Images/double-sofa-03.png"
 
-import productImg04 from "../Images/single-sofa-01.jpg";
-import productImg05 from "../Images/single-sofa-02.jpg";
-import productImg06 from "../Images/single-sofa-03.jpg";
-import productImg007 from "../Images/single-sofa-04.png";
+import productImg04 from "../Images/single-sofa-01.jpg"
+import productImg05 from "../Images/single-sofa-02.jpg"
+import productImg06 from "../Images/single-sofa-03.jpg"
+import productImg007 from "../Images/single-sofa-04.png"
 
-import productImg07 from "../Images/arm-chair-01.jpg";
-import productImg08 from "../Images/arm-chair-02.jpg";
-import productImg09 from "../Images/arm-chair-03.jpg";
-import productImg10 from "../Images/arm-chair-01.jpg";
+import productImg07 from "../Images/arm-chair-01.jpg"
+import productImg08 from "../Images/arm-chair-02.jpg"
+import productImg09 from "../Images/arm-chair-03.jpg"
+import productImg10 from "../Images/arm-chair-01.jpg"
 
-import phone01 from "../Images/phone-01.jpg";
-import phone02 from "../Images/phone-02.jpg";
-import phone03 from "../Images/phone-03.png";
-import phone04 from "../Images/phone-04.jpg";
-import phone05 from "../Images/phone-05.jpg";
-import phone06 from "../Images/phone-06.jpg";
-import phone08 from "../Images/phone-08.png";
+import phone01 from "../Images/phone-01.jpg"
+import phone02 from "../Images/phone-02.jpg"
+import phone03 from "../Images/phone-03.png"
+import phone04 from "../Images/phone-04.jpg"
+import phone05 from "../Images/phone-05.jpg"
+import phone06 from "../Images/phone-06.jpg"
+import phone08 from "../Images/phone-08.png"
 
-import watch01 from "../Images/watch-01.jpg";
-import watch02 from "../Images/watch-02.jpg";
-import watch03 from "../Images/watch-03.jpg";
-import watch04 from "../Images/watch-04.jpg";
+import watch01 from "../Images/watch-01.jpg"
+import watch02 from "../Images/watch-02.jpg"
+import watch03 from "../Images/watch-03.jpg"
+import watch04 from "../Images/watch-04.jpg"
 
-import wireless01 from "../Images/wireless-01.png";
-import wireless02 from "../Images/wireless-02.png";
-import wireless03 from "../Images/wireless-03.png";
-import wireless04 from "../Images/wireless-04.png";
+import wireless01 from "../Images/wireless-01.png"
+import wireless02 from "../Images/wireless-02.png"
+import wireless03 from "../Images/wireless-03.png"
+import wireless04 from "../Images/wireless-04.png"
 
-import sofaSlide from "../Images/hero-img.png";
-import watchSlide from "../Images/watch-07.png";
+import sofaSlide from "../Images/hero-img.png"
+import watchSlide from "../Images/watch-07.png"
 
 export const SliderData = [
   {
-      id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: sofaSlide,
+    id: 1,
+    title: "Welcome to CBJ Group",
+    desc: "Dive into the world of online shopping and business with us where we bring you expert insights, tips, and trends to help you navigate the e-commerce landscape.",
+    cover: sofaSlide,
   },
   {
-      id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: phone08,
+    id: 2,
+    title: "Visit Our Channel CBJ",
+    desc: "CBJ Channel, your trusted source for in-depth reviews of the latest electronics. Our expert team provides clear, honest insights on everything from smartphones and laptops to home gadgets, helping you make informed choices. Stay ahead of the curve with CBJ Channel, where tech meets expertise!",
+    cover: phone08,
   },
   {
-      id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: wireless01,
+    id: 3,
+    title: "Discover the Ultimate in CBJ Accessories",
+    desc: "Elevate your tech game with our curated collection of premium accessories! From sleek phone cases and durable chargers to cutting-edge headphones and versatile smartwatches, we have everything you need to enhance and protect your electronics. Shop now for unbeatable quality and the latest innovations!",
+    cover: wireless01,
   },
   {
-      id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: watchSlide,
+    id: 4,
+    title: "50% Off For Every National Online Shopping Day",
+    desc: "Get ready for National Online Shopping Day with an incredible 50% off on all your favorite products at our store! For one day only, enjoy unbeatable savings on a wide range of electronics, gadgets, and accessories. Don't miss out on this limited-time offer—shop now and grab the best deals before they're gone!",
+    cover: watchSlide,
   },
-];
+]
 
 export const serviceData = [
   {
     icon: <ion-icon name="car"></ion-icon>,
     title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle:
+      "Get your favorite products delivered right to your door at no extra cost!",
     bg: "#fdefe6",
   },
   {
     icon: <ion-icon name="card"></ion-icon>,
-    title: "Safe Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Subscribe Our Channel",
+    subtitle: "Get Promo Code every subscribed you gave.",
     bg: "#ceebe9",
   },
   {
     icon: <ion-icon name="shield-half-outline"></ion-icon>,
     title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle:
+      "Shop with confidence knowing your transactions are protected by our secure payment system.",
     bg: "#e2f2b2",
   },
   {
     icon: <ion-icon name="headset"></ion-icon>,
     title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle:
+      "We offer a hassle-free money-back guarantee to ensure you’re completely satisfied with your purchase.",
     bg: "#d6e5fb",
   },
-];
+]
 
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Webcam Cover Camera ",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
-    discount:30,
+    discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -109,11 +112,11 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Fingertape ",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
-    discount:20,
+    discount: 20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -132,11 +135,11 @@ export const discoutProducts = [
   },
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Dust Plug",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
-    discount:15,
+    discount: 15,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -155,11 +158,11 @@ export const discoutProducts = [
   },
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Mobile Phone Dustproof",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
-    discount:35,
+    discount: 35,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -178,11 +181,11 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Sticker Port SmartPhone",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
-    discount:10,
+    discount: 10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -201,11 +204,11 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Organizer Charger",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
-    discount:5,
+    discount: 5,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -222,7 +225,6 @@ export const discoutProducts = [
     ],
     avgRating: 4.8,
   },
-
 ]
 
 export const products = [
@@ -812,5 +814,4 @@ export const products = [
     ],
     avgRating: 4.8,
   },
-
-];
+]

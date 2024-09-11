@@ -1,21 +1,21 @@
-import { useEffect, useState } from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import "./navbar.css";
-import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useEffect, useState } from "react"
+import { Container, Nav, Navbar } from "react-bootstrap"
+import "./navbar.css"
+import { Link } from "react-router-dom"
+import { useSelector } from "react-redux"
 const NavBar = () => {
-  const { cartList } = useSelector((state) => state.cart);
-  const [expand, setExpand] = useState(false);
-  const [isFixed, setIsFixed] = useState(false);
+  const { cartList } = useSelector((state) => state.cart)
+  const [expand, setExpand] = useState(false)
+  const [isFixed, setIsFixed] = useState(false)
   // fixed Header
   function scrollHandler() {
     if (window.scrollY >= 100) {
-      setIsFixed(true);
+      setIsFixed(true)
     } else if (window.scrollY <= 50) {
-      setIsFixed(false);
+      setIsFixed(false)
     }
   }
-  window.addEventListener("scroll", scrollHandler);
+  window.addEventListener("scroll", scrollHandler)
   // useEffect(()=> {
   //   if(CartItem.length ===0) {
   //     const storedCart = localStorage.getItem("cartItem");
@@ -31,7 +31,7 @@ const NavBar = () => {
       <Container className="navbar-container">
         <Navbar.Brand to="/">
           <ion-icon name="bag"></ion-icon>
-          <h1 className="logo">Multimart</h1>
+          <h1 className="logo">CBJ Group</h1>
         </Navbar.Brand>
         {/* Media cart and toggle */}
         <div className="d-flex">
@@ -67,7 +67,7 @@ const NavBar = () => {
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={() => {
-              setExpand(expand ? false : "expanded");
+              setExpand(expand ? false : "expanded")
             }}
           >
             <span></span>
@@ -142,7 +142,7 @@ const NavBar = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar

@@ -1,27 +1,27 @@
-import { useEffect } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react"
+import { Col, Container, Row } from "react-bootstrap"
+import { useDispatch, useSelector } from "react-redux"
 import {
   addToCart,
   decreaseQty,
   deleteProduct,
-} from "../app/features/cart/cartSlice";
+} from "../app/features/cart/cartSlice"
 
 const Cart = () => {
-  const { cartList } = useSelector((state) => state.cart);
-  const dispatch = useDispatch();
+  const { cartList } = useSelector((state) => state.cart)
+  const dispatch = useDispatch()
   // middlware to localStorage
   const totalPrice = cartList.reduce(
     (price, item) => price + item.qty * item.price,
     0
-  );
+  )
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0)
     // if(CartItem.length ===0) {
     //   const storedCart = localStorage.getItem("cartItem");
     //   setCartItem(JSON.parse(storedCart));
     // }
-  }, []);
+  }, [])
   return (
     <section className="cart-items">
       <Container>
@@ -31,7 +31,7 @@ const Cart = () => {
               <h1 className="no-items product">No Items are add in Cart</h1>
             )}
             {cartList.map((item) => {
-              const productQty = item.price * item.qty;
+              const productQty = item.price * item.qty
               return (
                 <div className="cart-list" key={item.id}>
                   <Row>
@@ -43,8 +43,8 @@ const Cart = () => {
                         <Col xs={12} sm={9} className="cart-details">
                           <h3>{item.productName}</h3>
                           <h4>
-                            ${item.price}.00 * {item.qty}
-                            <span>${productQty}.00</span>
+                            Rp.{item.price}.00 * {item.qty}
+                            <span>Rp.{productQty}.00</span>
                           </h4>
                         </Col>
                         <Col xs={12} sm={3} className="cartControl">
@@ -73,7 +73,7 @@ const Cart = () => {
                     </button>
                   </Row>
                 </div>
-              );
+              )
             })}
           </Col>
           <Col md={4}>
@@ -81,14 +81,14 @@ const Cart = () => {
               <h2>Cart Summary</h2>
               <div className=" d_flex">
                 <h4>Total Price :</h4>
-                <h3>${totalPrice}.00</h3>
+                <h3>Rp.{totalPrice}.00</h3>
               </div>
             </div>
           </Col>
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default Cart;
+export default Cart

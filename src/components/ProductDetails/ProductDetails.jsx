@@ -1,21 +1,21 @@
-import { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { useDispatch } from "react-redux";
-import { toast } from "react-toastify";
-import { addToCart } from "../../app/features/cart/cartSlice";
-import "./product-details.css";
+import { useState } from "react"
+import { Col, Container, Row } from "react-bootstrap"
+import { useDispatch } from "react-redux"
+import { toast } from "react-toastify"
+import { addToCart } from "../../app/features/cart/cartSlice"
+import "./product-details.css"
 
 const ProductDetails = ({ selectedProduct }) => {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch()
 
-  const [quantity, setQuantity] = useState(1);
+  const [quantity, setQuantity] = useState(1)
   const handleQuantityChange = (e) => {
-    setQuantity(e.target.value);
-  };
+    setQuantity(e.target.value)
+  }
   const handelAdd = (selectedProduct, quantity) => {
-    dispatch(addToCart({ product: selectedProduct, num: quantity }));
-    toast.success("Product has been added to cart!");
-  };
+    dispatch(addToCart({ product: selectedProduct, num: quantity }))
+    toast.success("Product has been added to cart!")
+  }
 
   return (
     <section className="product-page">
@@ -37,7 +37,7 @@ const ProductDetails = ({ selectedProduct }) => {
               <span>{selectedProduct?.avgRating} ratings</span>
             </div>
             <div className="info">
-              <span className="price">${selectedProduct?.price}</span>
+              <span className="price">Rp.{selectedProduct?.price}</span>
               <span>category:{selectedProduct?.category}</span>
             </div>
             <p>{selectedProduct?.shortDesc}</p>
@@ -60,7 +60,7 @@ const ProductDetails = ({ selectedProduct }) => {
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default ProductDetails;
+export default ProductDetails
