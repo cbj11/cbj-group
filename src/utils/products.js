@@ -96,8 +96,8 @@ export const discoutProducts = [
     id: "01",
     productName: "Sticker Anti-Dust Charger",
     imgUrl: productImg01,
-    category: "sofa",
-    price: 1900,
+    category: "Accessories Electronics",
+    price: 8999,
     discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -115,7 +115,7 @@ export const discoutProducts = [
     id: "02",
     productName: "Anti-Dust Speaker Phone ",
     imgUrl: productImg02,
-    category: "sofa",
+    category: "Accessories Electronics",
     price: 5000,
     discount: 20,
     shortDesc:
@@ -138,7 +138,7 @@ export const discoutProducts = [
     id: "08",
     productName: "Fingertape",
     imgUrl: productImg08,
-    category: "chair",
+    category: "ATK",
     price: 8999,
     discount: 15,
     shortDesc:
@@ -161,7 +161,7 @@ export const discoutProducts = [
     id: "09",
     productName: "Sticker design 45 pcs",
     imgUrl: productImg09,
-    category: "chair",
+    category: "ATK",
     price: 11000,
     discount: 35,
     shortDesc:
@@ -182,10 +182,10 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Sticker Port SmartPhone",
+    productName: "Webcam Cover Animal",
     imgUrl: phone03,
-    category: "mobile",
-    price: 599,
+    category: "Webcam Cover",
+    price: 7100,
     discount: 10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -205,10 +205,10 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "Organizer Charger",
+    productName: "Webcam Cover Line",
     imgUrl: phone04,
-    category: "mobile",
-    price: 799,
+    category: "Webcam Cover",
+    price: 7100,
     discount: 5,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -231,10 +231,10 @@ export const discoutProducts = [
 export const products = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Sticker Anti-Dust Charger",
     imgUrl: productImg01,
-    category: "sofa",
-    price: 193,
+    category: "Accessories Electronics",
+    price: 8999,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -252,8 +252,8 @@ export const products = [
     id: "02",
     productName: "Mobile Phone Anti-Dust Speakers",
     imgUrl: productImg02,
-    category: "sofa",
-    price: 253,
+    category: "Accessories Electronics",
+    price: 5000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -273,10 +273,10 @@ export const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Anti-Dust Charger Port",
     imgUrl: productImg03,
-    category: "sofa",
-    price: 173,
+    category: "Accessories Electronics",
+    price: 5300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -295,10 +295,10 @@ export const products = [
   },
   {
     id: "26",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Cute Cable Bite",
     imgUrl: productImg11,
-    category: "sofa",
-    price: 253,
+    category: "Accessories Electronics",
+    price: 9800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -317,10 +317,10 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Pelindung Charger Bulat",
     imgUrl: productImg04,
-    category: "sofa",
-    price: 163,
+    category: "Accessories Electronics",
+    price: 5800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -340,10 +340,10 @@ export const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Organizer Cable",
     imgUrl: productImg05,
-    category: "sofa",
-    price: 163,
+    category: "Accessories Electronics",
+    price: 5800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -363,10 +363,10 @@ export const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Anti-Dust Laptop",
     imgUrl: productImg06,
-    category: "sofa",
-    price: 163,
+    category: "Accessories Electronics",
+    price: 7500,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -385,10 +385,10 @@ export const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Meteran Mini Otomatis",
     imgUrl: productImg07,
-    category: "chair",
-    price: 99,
+    category: "ATK",
+    price: 5000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -408,10 +408,10 @@ export const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Replacer Mi-Band 4",
     imgUrl: productImg007,
-    category: "sofa",
-    price: 173,
+    category: "Accessories Electronics",
+    price: 50000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -431,10 +431,10 @@ export const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Fingertape",
     imgUrl: productImg08,
-    category: "chair",
-    price: 89,
+    category: "ATK",
+    price: 8800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -454,10 +454,10 @@ export const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Sticker 45 Pcs",
     imgUrl: productImg09,
-    category: "chair",
-    price: 112,
+    category: "ATK",
+    price: 11000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -477,10 +477,10 @@ export const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Webcam Cover",
     imgUrl: phone01,
-    category: "mobile",
-    price: 799,
+    category: "Webcam Cover",
+    price: 1900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -499,10 +499,10 @@ export const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Sticker Thank You 100 meters",
     imgUrl: productImg10,
-    category: "chair",
-    price: 99,
+    category: "ATK",
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -521,10 +521,10 @@ export const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Webcam Cover JJK",
     imgUrl: phone02,
-    category: "mobile",
-    price: 799,
+    category: "Webcam Cover",
+    price: 7100,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -544,10 +544,10 @@ export const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Webcam Cover Animal",
     imgUrl: phone03,
-    category: "mobile",
-    price: 599,
+    category: "Webcam Cover",
+    price: 7100,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -567,10 +567,10 @@ export const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Webcam Cover Line",
     imgUrl: phone04,
-    category: "mobile",
-    price: 799,
+    category: "Webcam Cover",
+    price: 7100,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -590,10 +590,10 @@ export const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Webcam Cover BTS",
     imgUrl: phone05,
-    category: "mobile",
-    price: 899,
+    category: "Webcam Cover",
+    price: 7100,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -613,10 +613,10 @@ export const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Webcam Cover Minions",
     imgUrl: phone06,
-    category: "mobile",
-    price: 699,
+    category: "Webcam Cover",
+    price: 7100,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -636,10 +636,10 @@ export const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "[3 Lembar] Sticker Bear",
     imgUrl: watch01,
-    category: "watch",
-    price: 299,
+    category: "Mobile Accessories",
+    price: 13500,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -659,10 +659,10 @@ export const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Bezel Iphone Protector",
     imgUrl: watch02,
-    category: "watch",
-    price: 299,
+    category: "Mobile Accessories",
+    price: 9500,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -682,10 +682,10 @@ export const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "[2 Pcs] Anti Gores Lubang Charger",
     imgUrl: watch03,
-    category: "watch",
-    price: 299,
+    category: "Mobile Accessories",
+    price: 5800,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -705,10 +705,10 @@ export const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "Cable Organizer",
     imgUrl: watch04,
-    category: "watch",
-    price: 399,
+    category: "Mobile Accessories",
+    price: 5500,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:

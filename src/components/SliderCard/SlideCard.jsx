@@ -9,7 +9,9 @@ const SlideCard = ({ title, desc, cover }) => {
           <h1>{title}</h1>
           <p>{desc}</p>
           <button className="btn-primary">
-            Click Here to Visit Our Banner!
+            <a href="https://msha.ke/cbjgroup#links-1">
+              Click Here to Visit Our Banner!
+            </a>
           </button>
         </Col>
         <Col md={6}>
