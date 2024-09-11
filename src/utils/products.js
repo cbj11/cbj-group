@@ -1,29 +1,30 @@
-import productImg01 from "../Images/double-sofa-01.png"
-import productImg02 from "../Images/double-sofa-02.png"
-import productImg03 from "../Images/double-sofa-03.png"
+import productImg01 from "../Images/sticker-dust.png"
+import productImg02 from "../Images/dust-speaker.png"
+import productImg03 from "../Images/dust-plug.jpg"
 
-import productImg04 from "../Images/single-sofa-01.jpg"
-import productImg05 from "../Images/single-sofa-02.jpg"
-import productImg06 from "../Images/single-sofa-03.jpg"
-import productImg007 from "../Images/single-sofa-04.png"
+import productImg04 from "../Images/pelindung-charger.png"
+import productImg05 from "../Images/organizer.png"
+import productImg06 from "../Images/dust-laptop.png"
+import productImg007 from "../Images/mi-band.png"
 
-import productImg07 from "../Images/arm-chair-01.jpg"
-import productImg08 from "../Images/arm-chair-02.jpg"
-import productImg09 from "../Images/arm-chair-03.jpg"
-import productImg10 from "../Images/arm-chair-01.jpg"
+import productImg07 from "../Images/meteran-plastik.jpeg"
+import productImg08 from "../Images/fingertape.png"
+import productImg09 from "../Images/sticker-45pcs.png"
+import productImg10 from "../Images/sticker-bulat.png"
+import productImg11 from "../Images/cute-cable.png"
 
-import phone01 from "../Images/phone-01.jpg"
-import phone02 from "../Images/phone-02.jpg"
-import phone03 from "../Images/phone-03.png"
-import phone04 from "../Images/phone-04.jpg"
-import phone05 from "../Images/phone-05.jpg"
-import phone06 from "../Images/phone-06.jpg"
+import phone01 from "../Images/webcam-cover.png"
+import phone02 from "../Images/gojou-cover.png"
+import phone03 from "../Images/animal-cover.png"
+import phone04 from "../Images/line-cover.png"
+import phone05 from "../Images/bts-cover.png"
+import phone06 from "../Images/minion-cover.png"
 import phone08 from "../Images/phone-08.png"
 
-import watch01 from "../Images/watch-01.jpg"
-import watch02 from "../Images/watch-02.jpg"
-import watch03 from "../Images/watch-03.jpg"
-import watch04 from "../Images/watch-04.jpg"
+import watch01 from "../Images/sticker-hp.png"
+import watch02 from "../Images/bezel.png"
+import watch03 from "../Images/anti-scratch.png"
+import watch04 from "../Images/organizer.png"
 
 import wireless01 from "../Images/wireless-01.png"
 import wireless02 from "../Images/wireless-02.png"
@@ -93,10 +94,10 @@ export const serviceData = [
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Webcam Cover Camera ",
+    productName: "Sticker Anti-Dust Charger",
     imgUrl: productImg01,
     category: "sofa",
-    price: 193,
+    price: 1900,
     discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -112,10 +113,10 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Fingertape ",
+    productName: "Anti-Dust Speaker Phone ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 253,
+    price: 5000,
     discount: 20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -135,10 +136,10 @@ export const discoutProducts = [
   },
   {
     id: "08",
-    productName: "Dust Plug",
+    productName: "Fingertape",
     imgUrl: productImg08,
     category: "chair",
-    price: 89,
+    price: 8999,
     discount: 15,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -158,10 +159,10 @@ export const discoutProducts = [
   },
   {
     id: "09",
-    productName: "Mobile Phone Dustproof",
+    productName: "Sticker design 45 pcs",
     imgUrl: productImg09,
     category: "chair",
-    price: 112,
+    price: 11000,
     discount: 35,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -249,7 +250,7 @@ export const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Mobile Phone Anti-Dust Speakers",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -295,7 +296,7 @@ export const products = [
   {
     id: "26",
     productName: "Rivet Bigelow Modern ",
-    imgUrl: productImg02,
+    imgUrl: productImg11,
     category: "sofa",
     price: 253,
     shortDesc:
