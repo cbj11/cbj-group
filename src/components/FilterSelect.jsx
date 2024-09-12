@@ -6,7 +6,7 @@ const options = [
   { value: "ATK", label: "ATK" },
   { value: "Mobile Accessories", label: "Mobile Accessories" },
   { value: "Webcam Cover", label: "Webcam Cover" },
-  { value: "wireless", label: "Wireless" },
+  { value: "New Products", label: "New Products" },
 ]
 
 const customStyles = {

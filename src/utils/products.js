@@ -26,10 +26,10 @@ import watch02 from "../Images/bezel.png"
 import watch03 from "../Images/anti-scratch.png"
 import watch04 from "../Images/organizer.png"
 
-import wireless01 from "../Images/wireless-01.png"
-import wireless02 from "../Images/wireless-02.png"
-import wireless03 from "../Images/wireless-03.png"
-import wireless04 from "../Images/wireless-04.png"
+import wireless01 from "../Images/lanyard-set.png"
+import wireless02 from "../Images/lanyard2.png"
+import wireless03 from "../Images/spray-cleaner.png"
+import wireless04 from "../Images/pouch.png"
 
 import sofaSlide from "../Images/hero-img.png"
 import watchSlide from "../Images/watch-07.png"
@@ -728,10 +728,10 @@ export const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Lanyard Set",
     imgUrl: wireless01,
-    category: "wireless",
-    price: 199,
+    category: "New Products",
+    price: 19999,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -751,10 +751,10 @@ export const products = [
 
   {
     id: "21",
-    productName: "Beat EP Headphones",
+    productName: "Lanyard Set",
     imgUrl: wireless03,
-    category: "wireless",
-    price: 199,
+    category: "New Products",
+    price: 19999,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -773,10 +773,10 @@ export const products = [
   },
   {
     id: "22",
-    productName: "Black Headphones",
+    productName: "Lanyard Cartoon",
     imgUrl: wireless02,
-    category: "wireless",
-    price: 169,
+    category: "New Products",
+    price: 37500,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -795,10 +795,10 @@ export const products = [
   },
   {
     id: "23",
-    productName: "Bluetooth Headphones",
+    productName: "Pouch Charger",
     imgUrl: wireless04,
-    category: "wireless",
-    price: 139,
+    category: "New Products",
+    price: 58500,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
