@@ -29,7 +29,7 @@ const NavBar = () => {
       className={isFixed ? "navbar fixed" : "navbar"}
     >
       <Container className="navbar-container">
-        <Navbar.Brand to="/">
+        <Navbar.Brand to="/cbj-group">
           <ion-icon name="bag"></ion-icon>
           <h1 className="logo">CBJ Group</h1>
         </Navbar.Brand>
@@ -81,7 +81,7 @@ const NavBar = () => {
               <Link
                 aria-label="Go to Home Page"
                 className="navbar-link"
-                to="/"
+                to="/cbj-group"
                 onClick={() => setExpand(false)}
               >
                 <span className="nav-link-label">Home</span>
